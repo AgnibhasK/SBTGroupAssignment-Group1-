@@ -1,8 +1,8 @@
 name := "SBTAssignment"
 
-version := "0.1"
+version := "1.0"
 
-scalaVersion := "2.13.4"
+scalaVersion := "2.12.12"
 
 lazy val common = project.in(file("common"))
   .settings(
