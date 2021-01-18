@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.github.knoldus</groupId>
+    <artifactId>codesquad-sbt-plugin</artifactId>
+    <packaging>jar</packaging>
+    <description>It will upload reports in codesquad.</description>
+    <url>https://github.com/knoldus/CodeSquad-sbt-plugin</url>
+    <version>0.2.1</version>
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>codesquad-sbt-plugin</name>
+    <organization>
+        <name>Knoldus</name>
+        <url>http://www.knoldus.com/</url>
+    </organization>
+    <scm>
+        <url>https://github.com/knoldus/CodeSquad-sbt-plugin</url>
+        <connection>scm:git@github.com:knoldus/CodeSquad-sbt-plugin.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>narayankumar</id>
+            <name>Narayan Kumar</name>
+            <email>narayan.@knoldus.com</email>
+            <url>https://github.com/knoldus/CodeSquad-sbt-plugin</url>
+        </developer>
+    </developers>
+    <properties>
+        <scalaVersion>2.12</scalaVersion>
+        <sbtVersion>1.0</sbtVersion>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.12.8</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>sbt</artifactId>
+            <version>1.2.8</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe</groupId>
+            <artifactId>config</artifactId>
+            <version>1.3.3</version>
+        </dependency>
+    </dependencies>
+</project>
